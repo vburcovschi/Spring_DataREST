@@ -1,13 +1,10 @@
-package com.vburcovschi.spring.springboot.sprind_datajpa.dao;
+package com.vburcovschi.spring.springboot.spring_datarest.dao;
 
 
-import com.vburcovschi.spring.springboot.sprind_datajpa.entity.Employee;
+import com.vburcovschi.spring.springboot.spring_datarest.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
-
-    public List<Employee> findAllByName(String name);
-    public List<Employee> findAllBySalaryBetween(int min,int max);
 }

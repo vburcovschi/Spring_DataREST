@@ -1,4 +1,4 @@
-package com.vburcovschi.spring.springboot.sprind_datajpa.entity;
+package com.vburcovschi.spring.springboot.spring_datarest.entity;
 
 
 import jakarta.persistence.*;
